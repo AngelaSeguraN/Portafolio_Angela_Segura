@@ -1,0 +1,161 @@
+
+:root{
+    --color-fondo: #f5f5f5;
+    --color-resaldo: #EAF2FD;
+}
+
+* {
+    font-family: "Raleway", system-ui;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+    
+}
+
+body{
+    padding: 0 152px 0 152px;
+    background-color: var(--color-fondo);
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    
+}
+.header__menu__items{
+    display: flex;
+    gap: 32px;
+    
+}
+.header__menu__item__texto{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+.header__nombre{
+    height: 20%;
+    width: 20%;
+   
+}
+
+.banner__wrapper{
+    display: flex;
+    
+    
+}
+.banner__wrapper__descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.banner__foto{
+    height: 300px;
+    width: 300px;
+}
+
+.banner__titulo{
+    display: flex;
+    font-size: 64px;
+
+}
+
+.banner__redes{
+    display: flex;
+    gap: 30px;
+}
+.banner__redes__img{
+    height: 50px;
+    width: 50px; 
+}
+.conteiner__sobre__mi{
+    padding: 20px;
+    margin: 25px 0 25px 0;
+    background-color: var(--color-resaldo);
+    box-shadow: 0 15px 15px grey;
+    border-radius: 15px;
+    height: 450px;
+}
+
+.conteiner__titulo{
+    font-size: 32px;
+     text-align: center;
+    
+}
+
+.container__skills{
+    
+    height: 250px;
+}
+
+.container__skills__imgenes{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container__skills__img{
+    height: 90px;
+    width: 90px;
+}
+.container__formacion__imgenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.experiencia__1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.experiencia__botones{
+    display: flex;
+    gap: 20px;
+}
+
+.experiencia__boton{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    border: inherit;
+    border-radius: 8px;
+    background-color: grey;
+    box-shadow: 0 5px 5px grey;
+
+}
+.contacto__informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.contacto__textos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-style: italic;
+}
+.info{
+    width: 656px;
+    height: 65px;
+    resize: none;
+}
+.info_mensaje{
+    height: 133px;
+    resize: none;
+}
+
+
+.footer{
+    text-align: center;
+    height: 80px;
+    font-style: italic;
+}
